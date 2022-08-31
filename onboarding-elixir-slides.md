@@ -16,6 +16,11 @@ theme: default
     color: #dfe7ff;
   }
 
+  a {
+    color: #dfe7ff;
+    font-weight: 200;
+  }
+
   h1 {
     text-align: center;
     font-size: 60px;
@@ -52,6 +57,7 @@ theme: default
 - Having most of Redis and a tiny bit of Kafka at your fingertips without any external dependencies.
 - Processes have their own GC.
 - One process trying to use 100% CPU does not really slow other things down.
+- Productivity
 
 ---
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
@@ -65,9 +71,9 @@ theme: default
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
 ## Acknowledge gotchas
 
-- Elixir config feels like it was started from a clean slate and solved the problem in a very robust and unique way. This will serve you and solve lots of problems for you, but it is confusing when starting out.
+- Elixir config solves config in a really robust and unique way, but it is different from how it was done in other languages, so people will be confused by it. Provide help and review.
 - If this is your first compiled language, you are going to get some new benefits but also some new problems. If you put config in the wrong place, you could read an environment variable on the machine that compiles the code and hard-code that env var into the binary 😬.
-- Charlists are weird and confusing, you'll run into it.
+- Charlists are weird and confusing, put double quotes on strings.
 
 ---
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
@@ -123,7 +129,6 @@ theme: default
 - Pattern match on function heads instead of using if statements. This is not a good candidate for a group decision with newcomers.
 - How to create Structs, and pattern match on them.
 - Writing tests with ExUnit.
-- Provide for lots of help and review with config code.
 
 ---
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
@@ -173,6 +178,23 @@ Doubler.double([1, 2, :kaboom, 3])
 
 [2, 4, 6]
 ```
+
+---
+![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
+# Learning Resources not to start with
+
+- Programming Elixir - Dave Thomas
+- Elixir in Action - Saša Jurić
+
+---
+![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
+
+# Learning Resourcs to start with
+
+- https://elixir-lang.org/getting-started (First 15 sections)
+- Learn Functional Programming with Elixir - Ulisses Almeida
+- Pragmatic Studio Elixir & OTP
+- https://learn-elixir.dev (Free Preview)
 
 ---
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
