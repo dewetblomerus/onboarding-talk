@@ -116,7 +116,7 @@ theme: default
 
 - Pattern Matching values out of a Map
 - Read all the errors carefully, with the attitude that (I am going to be great at understanding these) understanding the errors in any language is a huge help.
-- How to create a Module
+- How to create a Module with naming conventions
 - Named functions
 - Anonymous functions
 
@@ -134,10 +134,10 @@ theme: default
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
 ## Coding style with newcomers in mind.
 
-- Break the work into smaller chunks than what is normally comfortable or efficient. Smaller PRs are necessary for the kind of code review that newcomers need. Especially after they worked really hard at getting the code to work.
-- Create clean interfaces to the things they don't need to learn in the beginning. Like GenServers. This is good code practice anyways.
+- Break the work into smaller chunks than what is normally comfortable or efficient.
+- Create clean interfaces to the things they don't need to learn in the beginning. Things like GenServers.
 - Follow your own testing best practices very strictly.
-- Don't use recursion if an `Enum` function will do.
+- Don't use recursion if a pipeline of `Enum` functions will do.
 
 ---
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
