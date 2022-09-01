@@ -78,6 +78,8 @@ theme: default
 ---
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
 ## Things to set up before they even start.
+
+- Identify the experienced Elixir engineer that will help them.
 - Ideally, let them work on a small part of something that is already in production.
 - If it is a new thing, get it deployed before they start or pair with them until it is deployed.
 - If any higher level OTP tools need to be used GenServers, ETS, Agents, Phoenix PubSub, etc, make those choices for them in the beginning.
@@ -114,7 +116,6 @@ theme: default
 ![bg](https://f000.backblazeb2.com/file/elixirconf-images/matched-bg.png)
 ## Things they need to start right away.
 
-- Pattern Matching values out of a Map
 - Read all the errors carefully, with the attitude that (I am going to be great at understanding these) understanding the errors in any language is a huge help.
 - How to create a Module with naming conventions
 - Named functions
